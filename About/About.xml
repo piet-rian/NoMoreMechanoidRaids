@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
-    <!-- see. https://rimworldwiki.com/wiki/Modding_Tutorials/About.xml -->
+    <packageId>piet.rian.no.more.mechanoid.raids</packageId>
+
+    <name>No More Mechanoid Raids </name>
+
+    <author>piet-rian</author>
+
+    <description>
+        (This description was created using Deepl.)
+
+        This mod was made in reference to "[KIR]No Mechanoid Raids".
+        https://steamcommunity.com/sharedfiles/filedetails/?id=1557017785
+
+        Eliminates raids by mechanoids.
+        It does not eliminate mechanoid factions.
+        
+        Therefore, the mechanoids will still be in the ancient ruins. And the mecha clusters will fall if the quest is ordered.
+    </description>
+
+    <supportedVersions>
+        <li>1.4</li>
+    </supportedVersions>
+
+    <modVersion>1.0</modVersion>
+
+    <url>https://github.com/piet-rian/NoMoreMechanoidRaids</url>
+
+    <loadAfter>
+        <li>ludeon.rimworld</li>
+        <li>ludeon.rimworld.royalty</li>
+    </loadAfter>
 
 </ModMetaData>
